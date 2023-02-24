@@ -14,7 +14,7 @@ Each student is provided their individual server and credentials
 * Download .rpm jar from the below link, and sign up for free downloads:
 https://developer.marklogic.com/products/marklogic-server/11.0
 
-* Open Termial in lab machine
+* Open Terminal in lab machine
 * cd to location where MarkLogic-11.0.0-rhel.x86_64.rpm is downloaded
     - cd Downloads/
 * change user to root with cmd:
