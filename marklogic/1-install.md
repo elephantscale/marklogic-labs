@@ -1,4 +1,4 @@
-# Marklogic 11 install (Ubuntu 20.04.3 LTS)
+# Marklogic 11 install (Amazon Linux 2)
 
 In this lab we will practice the installation of Marklogic.
 
