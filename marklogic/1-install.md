@@ -13,7 +13,9 @@ In this lab we will practice the installation of Marklogic from Windows.
 
     <img src="../images/Install_2.jpg" style="width:80%;"/> <!-- {"left" : 0.26, "top" : 1.45, "height" : 6.17, "width" : 9.74} -->
 
+
     <img src="../images/Install_3.jpg" style="width:80%;"/> <!-- {"left" : 0.26, "top" : 1.45, "height" : 6.17, "width" : 9.74} -->
+
 
 * once downloaded you will get MarkLogic-11.0.0-rhel.x86_64.rpm file in your windows machine
 
