@@ -1,34 +1,28 @@
-# Create a new Databsase
+# Attach Forest to Databsase
 
-In this lab we will practice the Database creation. 
+In this lab we will practice how to attach forest to database. 
 
 
-### Follow the following steps to create a new database:
+### Follow the following steps to attach a forest to database:
 
-* Click the Databases icon in the left tree menu
+* Log into the Admin Interface in a browser. It is on port 8001 of the host in which MarkLogic is running. From your windows machine, http://18.222.133.222:8001 (In this case the EC2 instance IP is 18.222.133.222. Accordingly you neee to change it as per your EC2 instance IP).
 
-    <img src="../images/db_1.jpg" style="width:80%;"/> <!-- {"left" : 0.26, "top" : 1.45, "height" : 6.17, "width" : 9.74} -->
+* You will be prompted to log in with your admin username and password
 
-* Click the Create tab at the top right. The Create Database page displays:
+    <img src="../images/Config_4.jpg" style="width:80%;"/> <!-- {"left" : 0.26, "top" : 1.45, "height" : 6.17, "width" : 9.74} -->
 
-    <img src="../images/db_2.jpg" style="width:80%;"/> <!-- {"left" : 0.26, "top" : 1.45, "height" : 6.17, "width" : 9.74} -->
+* Click the database to which you want to attach forests
 
-* Enter the name of the database. This is the name the system will use to refer to this database.
+    <img src="../images/db_6.jpg" style="width:80%;"/> <!-- {"left" : 0.26, "top" : 1.45, "height" : 6.17, "width" : 9.74} -->
 
-    <img src="../images/db_3.jpg" style="width:80%;"/> <!-- {"left" : 0.26, "top" : 1.45, "height" : 6.17, "width" : 9.74} -->
+* Click the Forests icon for the database. The Database Forest Configuration Page appears:
 
-* Select a security database to be associated with this database. We recommend selecting Security as the security database.
+    <img src="../images/db_7.jpg" style="width:80%;"/> <!-- {"left" : 0.26, "top" : 1.45, "height" : 6.17, "width" : 9.74} -->
 
-* Select a schema database to be associated with this database. We selected Schemas as schema database.
+* Check the box corresponding to forest(s) you want to attach to the database. You can also uncheck forests you want to detach from the database.
 
-    <img src="../images/db_4.jpg" style="width:80%;"/> <!-- {"left" : 0.26, "top" : 1.45, "height" : 6.17, "width" : 9.74} -->
+    <img src="../images/db_8.jpg" style="width:80%;"/> <!-- {"left" : 0.26, "top" : 1.45, "height" : 6.17, "width" : 9.74} -->
 
-* You may leave the rest of the parameters unchanged or set them according to your needs
+* Click OK
 
-* Click OK:
-
-* Database successfully created
-
-    <img src="../images/db_5.jpg" style="width:80%;"/> <!-- {"left" : 0.26, "top" : 1.45, "height" : 6.17, "width" : 9.74} -->
-
-* You can now attach forests to the database. Creating a database is a hot admin task.
+* The forests you attached or detached are now reflected in the database configuration. Attaching and detaching a forest to a database are hot admin tasks.
