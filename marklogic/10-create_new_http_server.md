@@ -34,6 +34,8 @@
 
         <img src="../images/http_5.jpg" style="width:80%;"/> <!-- {"left" : 0.26, "top" : 1.45, "height" : 6.17, "width" : 9.74} -->
 
+    - Do not create XDBC server root directories named Docs, Data or Admin. These directories are reserved by MarkLogic Server for other purposes
+
 * In the Port field, enter the port number through which you want to make this HTTP server available
 
     - The port number must not be assigned to any other HTTP, ODBC, XDBC, or WebDAV server
