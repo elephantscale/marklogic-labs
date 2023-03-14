@@ -1,4 +1,4 @@
-# Mearging a database
+# Merging a database
 
 ### To explicitly merge the database, complete the following procedure:
 
