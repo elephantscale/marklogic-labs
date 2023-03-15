@@ -1,6 +1,32 @@
 # Create a new WebDAV server
 
-### To create a new server, complete the following steps:
+## To create a new server, complete the following steps:
+
+### Step 1: Creat a forest
+
+* Create a new forest
+
+    <img src="../images/webdav_6.jpg" style="width:80%;"/> <!-- {"left" : 0.26, "top" : 1.45, "height" : 6.17, "width" : 9.74} -->
+
+### Step 2: Creat a database
+
+* Create a new database
+
+* Provide a database name, select "Security" as Security Database, select "Schemas" as Schema Database
+
+    <img src="../images/webdav_4.jpg" style="width:80%;"/> <!-- {"left" : 0.26, "top" : 1.45, "height" : 6.17, "width" : 9.74} -->
+
+* Scrol down and select the Directory creation option to automatic
+
+    <img src="../images/webdav_5.jpg" style="width:80%;"/> <!-- {"left" : 0.26, "top" : 1.45, "height" : 6.17, "width" : 9.74} -->
+
+* Click OK
+
+    <img src="../images/webdav_7.jpg" style="width:80%;"/> <!-- {"left" : 0.26, "top" : 1.45, "height" : 6.17, "width" : 9.74} -->
+
+* Attach this database to the forest
+
+### Step 3: Creat a WebDAV server
 
 * Log into the Admin Interface in a browser. It is on port 8001 of the host in which MarkLogic is running. From your windows machine, http://18.222.133.222:8001 (In this case the EC2 instance IP is 18.222.133.222. Accordingly you neee to change it as per your EC2 instance IP).
 
@@ -44,11 +70,6 @@
 
 * Scroll to the top or bottom and click OK
 
-Start from here !!!!!!!!!!!!!!!!!!!!!!!!111
-Start from here !!!!!!!!!!!!!!!!!!!!!!!!111
-Start from here !!!!!!!!!!!!!!!!!!!!!!!!111
-Start from here !!!!!!!!!!!!!!!!!!!!!!!!111
-
 * You successfully created a WebDAV server
 
-    <img src="../images/xdbc_4.jpg" style="width:80%;"/> <!-- {"left" : 0.26, "top" : 1.45, "height" : 6.17, "width" : 9.74} -->
+    <img src="../images/webdav_8.jpg" style="width:80%;"/> <!-- {"left" : 0.26, "top" : 1.45, "height" : 6.17, "width" : 9.74} -->
