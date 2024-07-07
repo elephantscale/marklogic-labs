@@ -5,7 +5,7 @@ In this lab we will practice the installation of Marklogic from Windows.
 
 ### STEP 1: Donload Marklogic 11 on your windows machine
 
-* Click on [this](https://developer.marklogic.com/products/marklogic-server/11.0) url and downlaod rpm file from "Red Hat Enterprise Linux / CentOS, Version 7 and 8" section
+* Click on [this](https://developer.marklogic.com/products/marklogic-server) url and downlaod rpm file from "Red Hat Enterprise Linux / CentOS, Version 7 and 8" section
 
     <img src="../images/Install_1.jpg" style="width:80%;"/> <!-- {"left" : 0.26, "top" : 1.45, "height" : 6.17, "width" : 9.74} -->
 
